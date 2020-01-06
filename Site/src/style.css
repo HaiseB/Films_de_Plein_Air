@@ -109,6 +109,14 @@ Extra small | Small | Medium | Large | Extra large
     background-position:center center;
 }
 
+#home_article{
+    background: #1A1E26;
+}
+
+#home_reservation{
+    background: #1A1E26;
+}
+
 .logo{
     position: absolute;
     top: 0px;
@@ -151,7 +159,6 @@ Extra small | Small | Medium | Large | Extra large
 
 /* Programmation */
 #programmation{
-    border: dashed red;
     font-family: 'Bungee', cursive;
     text-align: right;
     justify-content: space-around;
@@ -174,9 +181,38 @@ Extra small | Small | Medium | Large | Extra large
 
 .movie{
     font-family: 'Source Sans Pro', sans-serif;
-    background: #F2B28D;
     color: #1A1E26;
-    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film_title{
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+}
+
+.film_title::before{
+    content: "";
+    height: 90%;
+    width: 4px;
+    background-color: #591829;
+    float: left;
+    margin-right: 10px;
+}
+
+.seance{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8em;
+    color: #591829;
+}
+
+.film_button{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Footer */
