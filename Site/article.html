@@ -9,15 +9,15 @@
     <link href="./src/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6e34adc13e.js" crossorigin="anonymous"></script>
     <link rel="icon" type="png" href="./public/logo/logo_r.png" />
-    <title>Les Films de Plein Air | Accueil</title>
+    <title>Les Films de Plein Air | Actualités</title>
 </head>
-<body>
-    <section id="home_article">
+<body class="black_page">
+    <section id="home_reservation">
         <div class="logo lg-mid-def">
             <img src="./public/logo/logo_r_l.png">
         </div>
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <a class="navbar-brand" href="#"><i id="ico_home" class="fas fa-home"></i> <span  id="title_home" class="complete_menu">Accueil</span><span class="mid-def">Accueil</span></a>
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-not-home">
+            <a class="navbar-brand" href="index.html"><i id="ico_home" class="fas fa-home"></i> <span  id="title_home" class="complete_menu">Accueil</span><span class="mid-def">Accueil</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,11 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                    <!--<li class="nav-item active">-->
-                        <a class="nav-link js-scrollTo" href="#programmation"><i class="fas fa-calendar-alt"></i> <span class="complete_menu">Programmation</span><span class="mid-def">Prog</span></a>
+                        <a class="nav-link js-scrollTo" href="index.html#programmation"><i class="fas fa-calendar-alt"></i> <span class="complete_menu">Programmation</span><span class="mid-def">Prog</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-newspaper"></i> <span class="complete_menu">Actualités</span><span class="mid-def">Actu</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="article.html"><i class="fas fa-newspaper"></i> <span class="complete_menu">Actualités</span><span class="mid-def">Actu</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scrollTo" href="#social"><i class="fas fa-envelope"></i> <span class="complete_menu">Nous contacter</span><span class="mid-def">Contact</span></a>
@@ -37,6 +36,40 @@
                 </ul>
             </div>
         </nav>
+    </section>
+    <article class="container shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="article_banner">
+            <h3 class="article_title col-md-12">RENDEZ-VOUS LE 5 AOÛT !</h3>
+            <p>Venez découvrir ou re-découvrir vos films d'auteurs préférés, au parc Monceau à Paris.</p>
+        </div>
+        <div class="article_content">
+    
+                
+                <p>
+                    En cette année 2018, nous organisons la toute première édition du festival "Les films de plein air" !
+    
+    Alors, si vous êtes intéressé par les films d'auteurs, ou si vous aimez tout simplement assister à des projections de films en plein air, ce festival est fait pour vous !
+    
+    Les séances sont gratuites mais pensez à réserver, on ne pourra peut-être pas accueillir tout le monde !
+                </p>
+                <p>
+                    Aller ! On se prépare pour notre 1ère édition du festival "Les films de plein air".
+    
+    Nous venons d'obtenir l'autorisation de projeter au parc Monceau, de 18h à minuit durant la période du 05 au 08 août.
+    
+    Notre sélection de films est disponible ici.
+    
+    Au fait, pensez à réserver, il ne faudrait pas manquer de chaises :)
+    
+    
+                </p>
+                <p>Les Films de Plein Air reviennent en 2020 du 5 au 8 août!
+                    Cela fait maintenant 3 ans qu'au parc Monceau des projections de films d'auteur ont lieu, mais cette fois nous voyons plus grand! 3 soirées pour découvrir plus d'une dizaine de film!
+                    Et nouveauté, cette année précommander vos places en ligne</p>
+        </div>
+
+        <p class="signature">7 janvier 2020 | Par Anne Nonyme</p>
+    </article>
     <footer>
         <div id="contact">
             <img src="./public/img/map_l.png" class="rounded large-def">
