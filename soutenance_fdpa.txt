@@ -1,0 +1,31 @@
+ouvrir pdf + 9 pages grand/moyen/petit
+
+Présentation du cahier des charges:
+
+	rappel du contexte
+	
+	objectifs
+
+	étude concurrentielle
+
+	référencement naturel
+
+	design
+	bouton "play", pierre précieuse 
+	police très imposante et police douce et moderne
+	flat -> effet sobre
+		rouge: pour tapis rouge
+		noir: pour salle de cinéma
+		jaune: dorée pour les étoiles, films récompensés
+		blanc: pour noir sur blanc
+		gris: pour la liaison
+
+	carte d'impact permet de faire ressortir les besoins
+
+	wireframe ou vbisuel vasse fidélité, pour placer les éléments
+
+	choix techno wordpress
+
+	adresses mails (géré par OVH)
+
+	reponsive et mobile first
